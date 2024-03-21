@@ -21,32 +21,12 @@
 
 #include <windows.h>
 
-// C RunTime Header Files
-#include <stdlib.h>
-#include <sstream>
-#include <iomanip>
+#include <d3d12.h>
+#include <dxgi1_6.h>
+#include <D3Dcompiler.h>
+#include <DirectXMath.h>
+#include "d3dx12.h"
 
-#include <list>
 #include <string>
 #include <wrl.h>
 #include <shellapi.h>
-#include <memory>
-#include <unordered_map>
-#include <vector>
-#include <assert.h>
-#include <array>
-#include <unordered_map>
-
-#include <dxgi1_6.h>
-#include <d3d12.h>
-#include "d3dx12.h"
-
-#include <DirectXMath.h>
-
-#ifdef _DEBUG
-#include <dxgidebug.h>
-#endif
-
-#include "DXSampleHelper.h"
-#include "DeviceResources.h"
-
